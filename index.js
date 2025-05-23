@@ -92,7 +92,7 @@ app.get("/server-info", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.status(200).json("Hello from Backend app!");
+  res.status(200).json("Hello Hatem from Backend app!");
 });
 
 app.get("/api/users", (req, res) => {
